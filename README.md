@@ -16,11 +16,13 @@ atm/
 ```
 
 ## Getting Started
+### Prerequisites
+- Python 3.7 or higher (This project was developed using Python 3.11.0)
+  
 ### Installation
 1. Clone the repository
    ```bash
    git clone https://github.com/park-sangbeom/atm-controller.git
-
    
 2. Install dependencies
    ```bash
