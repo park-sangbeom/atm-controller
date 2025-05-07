@@ -1,4 +1,4 @@
-from credit_card import CreditCard
+from utils.credit_card import CreditCard
 
 """
 A class that ensures the card number and verifies the PIN

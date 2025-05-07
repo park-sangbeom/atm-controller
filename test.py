@@ -1,5 +1,5 @@
 import pytest
-from atm_controller import ATMController
+from controller.atm_controller import ATMController
 
 @pytest.fixture
 def atm():

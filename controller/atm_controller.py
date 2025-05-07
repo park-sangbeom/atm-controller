@@ -1,5 +1,5 @@
-from bank_account import BankAccount
-from card_checker import CardChecker
+from utils.bank_account import BankAccount
+from utils.card_checker import CardChecker
 
 class ATMController:
     def __init__(self):

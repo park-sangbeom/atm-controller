@@ -1,4 +1,4 @@
-from atm_controller import ATMController
+from controller.atm_controller import ATMController
 
 def atm_playground():
     print("Start ATM Simulation Playground")
