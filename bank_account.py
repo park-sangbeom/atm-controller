@@ -24,18 +24,19 @@ class BankAccount:
     
     # Update the balance of the selected bank account 
     def update_account_balance(self, account, amount):
-        if account not in self.accounts:
-            self.accounts[account["account_number"]] = account["balance"]
-        # The balance must be dollar value which is represented by an Integer
+        account_number = account["account_number"]
+
+        if account_number not in self.accounts:
+            self.accounts[account_number] = account["balance"]
+
         if not isinstance(amount, int):
-            return False 
-            
-        current_balance = self.accounts[account["account_number"]]
+            return False
+
+        current_balance = self.accounts[account_number]
         new_balance = current_balance + amount
-        
-        # Return False if the balance is not enough
+
         if new_balance < 0:
             return False
-            
-        self.accounts[account["account_number"]] = new_balance
+
+        self.accounts[account_number] = new_balance
         return True
