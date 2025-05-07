@@ -3,6 +3,7 @@ This project implements a simple ATM system that includes inserting a card, veri
 
 ## Structure
 The project is organized with the following structure:
+<pre><code>```text
 atm/
 ├── utils/
 │   ├── credit_card.py  # Card information data model
@@ -12,6 +13,7 @@ atm/
 │   └── atm_controller.py  # ATM controller
 ├── test.py  # Unit tests
 └── play_ground.py  # Simulation
+```</code></pre>
 
 ## Getting Started
 ### Installation
